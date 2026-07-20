@@ -1,6 +1,6 @@
-const URL='https://tqrvnunwqbaivbtapqkm.supabase.co';
-const KEY='sb_publishable_BohL_Db4wbIOZAJz8Xfbpg_TNl_AO_u';
-const db=supabase.createClient(URL,KEY); let state={track:'single',view:'overview',date:new Date().toISOString().slice(0,10),people:[],entries:[],imports:[],audit:[],user:null};
+const SUPABASE_URL='https://tqrvnunwqbaivbtapqkm.supabase.co';
+const SUPABASE_KEY='sb_publishable_BohL_Db4wbIOZAJz8Xfbpg_TNl_AO_u';
+const db=supabase.createClient(SUPABASE_URL,SUPABASE_KEY); let state={track:'single',view:'overview',date:new Date().toISOString().slice(0,10),people:[],entries:[],imports:[],audit:[],user:null};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 function toast(s){let e=$('#toast');e.textContent=s;e.style.display='block';setTimeout(()=>e.style.display='none',3500)}
 function esc(s=''){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
