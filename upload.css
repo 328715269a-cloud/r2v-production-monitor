@@ -14,3 +14,4 @@
 .statusFilter button.active{background:var(--card);color:var(--green);box-shadow:0 1px 5px #17231f18}
 .hourlyInput{width:74px;padding:7px;text-align:center}
 .hourlyInput:focus{border-color:var(--green);outline:2px solid #1f6a4a24}
+.amber{color:var(--red)}
