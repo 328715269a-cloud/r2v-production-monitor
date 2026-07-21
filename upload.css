@@ -1,2 +1,10 @@
 .importContext{margin:4px 0 16px;padding:10px 12px;border:1px solid #c9d8ce;border-radius:10px;background:#edf5ef;color:#52645a}
 .importContext strong{margin-left:4px;color:var(--green)}
+.dangerGhost{color:var(--red);border-color:#e5b9b6;background:#fff8f7}
+.dangerGhost:hover,.dangerGhost:focus-visible{background:#fbe5e3;outline:2px solid #b6383830}
+.danger{background:var(--red);border-color:var(--red);color:white}
+.danger:disabled{opacity:.6;cursor:wait}
+.dangerNote{padding:11px 13px;border:1px solid #efcbc8;border-radius:10px;background:#fff4f3;color:#8b2929}
+.deleteSummary{display:flex;flex-direction:column;gap:4px;margin:16px 0;padding-bottom:14px;border-bottom:1px solid var(--line)}
+.deleteSummary span{color:var(--muted);font-size:12px}
+.passwordField{display:flex;flex-direction:column;gap:6px;color:var(--muted)}
