@@ -8,3 +8,9 @@
 .deleteSummary{display:flex;flex-direction:column;gap:4px;margin:16px 0;padding-bottom:14px;border-bottom:1px solid var(--line)}
 .deleteSummary span{color:var(--muted);font-size:12px}
 .passwordField{display:flex;flex-direction:column;gap:6px;color:var(--muted)}
+.tableTools{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.statusFilter{display:flex;gap:3px;padding:3px;border-radius:10px;background:#e8ede9}
+.statusFilter button{padding:5px 9px;border:0;background:transparent}
+.statusFilter button.active{background:var(--card);color:var(--green);box-shadow:0 1px 5px #17231f18}
+.hourlyInput{width:74px;padding:7px;text-align:center}
+.hourlyInput:focus{border-color:var(--green);outline:2px solid #1f6a4a24}
