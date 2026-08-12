@@ -16,6 +16,7 @@
 .statusFilter{display:flex;gap:3px;padding:3px;border-radius:10px;background:#e8ede9}
 .statusFilter button{padding:5px 9px;border:0;background:transparent}
 .statusFilter button.active{background:var(--card);color:var(--green);box-shadow:0 1px 5px #17231f18}
+.combinedFilters{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:4px 0 14px;padding:10px;background:#f3f6f3;border-radius:10px}.combinedFilters input,.combinedFilters select{min-width:130px}.combinedRule{border:1px solid #c9d8ce;border-left-width:1px;border-radius:10px}
 .hourlyInput{width:74px;padding:7px;text-align:center}
 .hourlyInput:focus{border-color:var(--green);outline:2px solid #1f6a4a24}
 .amber{color:var(--red)}
